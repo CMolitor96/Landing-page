@@ -4,11 +4,10 @@
 }
 header {
     position: fixed;
-    background-color: forestgreen;
+    background: forestgreen;
     width: 100%;
-    height: 60px;
-    margin-top: auto;
-    padding: 0px;
+    display: block;
+    margin-top: -20px;
 }
 nav a{
     float: right;
@@ -51,6 +50,9 @@ label {
     margin: auto;
     font-weight: bolder;
     padding-top: 20px;
+    display: inline-block;
+    text-align: right;
+    width: 150px;
 }
 .contact {
     border: 2px solid blue;
@@ -68,8 +70,12 @@ label {
     width: 600px;
     margin: auto;
     background-color: bisque;
+    padding-top: 20px
 }
 .title {
     text-align: center;
     color: green;
+}
+#Fill {
+    margin-left: -130px;
 }
